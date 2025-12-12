@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar";
+import ContactSection from "../components/contact/ContactSection";
 import Hero from "../components/contact/Hero";
-import Contact from "../components/contact/Contact";
 
 const Contact = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <Contact />
+      <ContactSection />
     </>
   );
 };

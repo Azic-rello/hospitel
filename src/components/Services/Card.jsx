@@ -1,21 +1,22 @@
 import { DoctorsCard, servicCard } from "../../constants";
 import Passion from "./Passion";
+import HealingIcon from "@mui/icons-material/Healing";
 
 export default function Card() {
   return (
     <div>
-      hero ni pasidagi Servisni kartalari
-      <div className="w-full max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className="w-full max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-8 p-4">
         {servicCard.map((item) => (
           <div className="bg-white rounded-1xl shadow-md hover:shadow-lg transition duration-300">
-            <div className="relative w-full h-48 overflow-hidden">
-              <img
-                src={item.serImg}
-                alt="Service"
-                className="w-full h-full object-cover"
-              />
+            <div className="relative w-full h-48">
+              <img src={item.serImg} alt="Service" className="w-full h-full" />
               <div className="absolute bottom-[-20.1px] right-5 bg-indigo-700 text-white w-12 h-12 flex items-center justify-center rounded-full shadow-lg text-xl">
-                {item.serIcon}
+                <HealingIcon />
               </div>
             </div>
 
@@ -25,7 +26,7 @@ export default function Card() {
                 {item.serText}
               </p>
               <button className="text-blue-500 font-medium flex items-center gap-1 hover:underline">
-                {item.serMore} <span>→</span>
+                {item.serMore}
               </button>
             </div>
           </div>
@@ -33,12 +34,13 @@ export default function Card() {
       </div>
       <Passion />
       <div className="mt-[60px]">
-        <h3 className="text-center text-blue-400 font-bold">MEET THE</h3>
-        <h1 className="text-center text-indigo-900 font-bold text-[20px]">
+        <h3 className="text-center text-blue-400 font-bold text-2xl">
+          MEET THE
+        </h3>
+        <h1 className="text-center text-indigo-900 font-bold text-3xl">
           Team Members
         </h1>
       </div>
-      // Doktirlarni kartalari
       <div className="w-full max-w-7xl mx-auto px-4 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {DoctorsCard.map((item) => (

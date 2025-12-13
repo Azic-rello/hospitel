@@ -43,7 +43,6 @@ const Passion = () => {
 
     </div>
 
-    {/* Text */}
     <p className="text-gray-600 leading-relaxed max-w-4xl mx-auto text-sm sm:text-base">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat
       scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare

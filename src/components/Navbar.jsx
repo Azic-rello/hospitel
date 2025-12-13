@@ -10,7 +10,7 @@ const Navbar = () => {
     isActive ? "font-extrabold text-[#c1cbfa] text-xl" : "font-bold";
 
   return (
-    <div className="w-full bg-[#2d076e] h-[81px] flex items-center justify-between px-6 text-white relative">
+    <div className="w-full bg-[#2d076e] h-[81px] flex items-center justify-around px-6 text-white relative">
       <img className="w-36" src={siteLogo} alt="logo" />
 
       <ul className="hidden md:flex gap-10 items-center text-lg font-bold">

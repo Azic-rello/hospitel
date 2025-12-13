@@ -13,6 +13,7 @@ const News = () => {
       <Card />
       <Contact />
       <Futer />
+      
     </>
   );
 };

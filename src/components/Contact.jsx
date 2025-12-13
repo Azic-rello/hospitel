@@ -1,4 +1,3 @@
-import React from 'react'
 import { contactData } from '../constants'
 
 const Contact = () => {

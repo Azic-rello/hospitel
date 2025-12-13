@@ -1,4 +1,3 @@
-import React from "react";
 import { FaUser, FaEye, FaComment } from "react-icons/fa";
 
 const newsData = [

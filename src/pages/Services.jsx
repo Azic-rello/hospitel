@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Services/Hero";
 import Card from "../components/Services/Card";

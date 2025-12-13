@@ -1,4 +1,4 @@
-import ServiceImg from '../../public/assets/ServiceImg.jpg'
+import ServiceImg from '../../public/assets/ServiceImg.png'
 import Doctor1 from '../../public/assets/Doctor1.png'
 import Doctor2 from '../../public/assets/Doctor2.png'
 import Doctor3 from '../../public/assets/Doctor3.png'

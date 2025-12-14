@@ -4,7 +4,7 @@ import News from "../components/News";
 import ContactSection from "../components/contact/ContactSection";
 import Hero from "../components/contact/Hero";
 
-const Contact = () => {
+const Cantact = () => {
   return (
     <>
       <Navbar />
@@ -16,4 +16,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Cantact;

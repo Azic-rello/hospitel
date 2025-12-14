@@ -1,16 +1,15 @@
 function Info() {
   return (
-    <div className="relative w-full h-[500px] flex items-center justify-center text-center">
-      <div className="absolute inset-0 bg-cover bg-center">
-        {" "}
+    <div className="relative w-full h-[500px] mt-12 flex items-center justify-center text-center">
+      <div className="absolute inset-0">
         <img
           src="/public/assets/3872cf531b67c6202c38dc53126a3cc49440d867.jpg"
           alt="xatolik"
-          className="w-full h-[600px]"
-        />{" "}
+          className="w-full h-[450px] object-cover object-center"
+        />
       </div>
 
-      <div className="absolute inset-0 bg-blue-900/60 w-full h-[600px]"></div>
+      <div className="absolute inset-0 bg-blue-900/60 w-full h-[450px]"></div>
 
       <div className="relative max-w-4xl px-6 text-white">
         <div className="text-6xl font-bold mb-6">“</div>

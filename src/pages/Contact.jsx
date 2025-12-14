@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/contact/Hero";
 import Contact from "../components/contact/Contact";
 
-const Contact = () => {
+const Cantact = () => {
   return (
     <>
       <Navbar />
@@ -12,4 +12,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Cantact;

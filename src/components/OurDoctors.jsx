@@ -5,6 +5,7 @@ import Icon1 from '../../public/assets/icon1.png'
 import Icon2 from '../../public/assets/icon2.png'
 import Doctor from '../../public/assets/doctor.png'
 import Doctor1 from '../../public/assets/doctor1.png'
+import Nuqta from '../../public/assets/nuqta.png'
 
 const OurDoctors = () => {
   return (
@@ -64,6 +65,7 @@ const OurDoctors = () => {
         </div>
       </div>
       </div>
+      <img className='mt-[3%] ml-[45%]' src={Nuqta} alt="" />
     </div>
   )
 }

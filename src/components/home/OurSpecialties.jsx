@@ -142,6 +142,7 @@ const OurSpecialties = () => {
           </div>
         </div>
       </div>
+      <div className="h-80"></div>
     </div>
   );
 };

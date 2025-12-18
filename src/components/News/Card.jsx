@@ -45,7 +45,7 @@ const recentPosts = [
     title: "This Article’s Title goes Here, but not too long.",
   },
   {
-    img: "/public/assets/2774587a7039a2fd00b07bdbf3cd43b8d71b2b1b.jpg",
+    img: "/public/assets/3872cf531b67c6202c38dc53126a3cc49440d867.jpg",
     date: "Monday 05, September 2021",
     title: "This Article’s Title goes Here, but not too long.",
   },

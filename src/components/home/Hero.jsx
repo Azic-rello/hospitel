@@ -7,7 +7,6 @@ const Hero = () => {
     <div className="relative">
       <img className="absolute -z-20 w-full object-cover" src={imgHero} alt="" />
       
-      {/* Hero Content */}
       <div className="p-8 md:p-16 lg:p-[160px_100px]">
         <div className="grid gap-6 max-w-2xl">
           <h4 className="text-[#159EEC] text-sm md:text-[16px] font-bold">
@@ -22,7 +21,6 @@ const Hero = () => {
           </button>
         </div>
 
-        {/* 3 Cards Section */}
         <div className="flex flex-col sm:flex-row gap-4 mt-10 md:mt-[140px] justify-center">
           {[1, 2, 3].map((i) => (
             <div
